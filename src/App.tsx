@@ -4,7 +4,11 @@ import { render } from "solid-js/web";
 import { lazily } from "solidjs-lazily";
 import { Component } from "solid-js";
 
+import "normalize.css";
+import "./App.scss";
+
 const root = document.getElementById('root');
+const { Header } = lazily(() => import('@/components/header'));
 const { Home } = lazily(() => import('@/pages/home'));
 
 const App: Component = () => {

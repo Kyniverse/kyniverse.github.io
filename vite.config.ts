@@ -21,6 +21,7 @@ export default defineConfig({
       { find: '@pages', replacement: fileURLToPath(new URL('./src/pages]', import.meta.url)) },
       { find: '@stores', replacement: fileURLToPath(new URL('./src/stores', import.meta.url)) },
       { find: '@components', replacement: fileURLToPath(new URL('./src/components', import.meta.url)) },
+      { find: '@templates', replacement: fileURLToPath(new URL('./src/templates', import.meta.url)) },
     ],
   }
 });

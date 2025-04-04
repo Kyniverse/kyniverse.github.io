@@ -1,7 +1,10 @@
 import { Component } from "solid-js";
+import { Default } from "@/layouts";
 
 export const Home: Component = () => {
-  return(<main>
-    <h1>Hello World!</h1>
-  </main>);
+  return(<Default>
+
+    Hello World
+    
+  </Default>);
 }
