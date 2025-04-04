@@ -5,10 +5,10 @@ permissions:
 
 on:
   push:
-    branches: ["main"]
+    branches: [ main ]
 
   pull_request:
-    branches: ["main"]
+    branches: [ main ]
 
   workflow_dispatch:
 
@@ -28,10 +28,10 @@ jobs:
           BASE_PATH: /kyniverse.github.io/
 
       - name: Create .nojekyll
-        run: touch .output/public/.nojekyll
+        run: touch dist/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: .output/public/
+          folder: dist/
