@@ -3,10 +3,12 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [solidPlugin()],
-  server: {
-    port: 3000,
-  },
+  base: process.env.BASE_PATH,
+
+  server: { port: 3000, },
+
   build: {
     target: 'esnext',
+    cssMinify: true,
   },
 });
