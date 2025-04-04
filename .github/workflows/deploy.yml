@@ -35,8 +35,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          BASE_PATH: /kyniverse.github.io/
 
       - name: Create .nojekyll
         run: touch ./dist/.nojekyll
