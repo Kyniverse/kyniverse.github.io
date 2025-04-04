@@ -3,7 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [solidPlugin()],
-  base: process.env.BASE_PATH,
+  base: "kyniverse.github.io",
 
   server: { port: 3000, },
 
