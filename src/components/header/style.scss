@@ -1,8 +1,10 @@
 .header {
+    position: absolute;
+    
     height: 64px;
     width: 100%;
 
-    background: var(--dark3);
+    background: var(--clr-retro-bg02);
 
     .wrapper {
         display: flex;

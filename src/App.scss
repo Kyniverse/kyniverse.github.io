@@ -2,7 +2,16 @@
 
 :root {
   --content-width: 768px;
-  
+
+  --clr-retro-bg01: #FAF2E3;
+  --clr-retro-bg02: #3B2527;
+
+  --clr-retro-red: #EC5042;
+  --clr-retro-orange: #F19145;
+  --clr-retro-yellow: #F0CA45;
+  --clr-retro-green: #B8C156;
+  --clr-retro-blue: #A3D2CA;
+
   --light0: #f8f8f8;
   --light1: #e8ecf0;
 
@@ -30,7 +39,7 @@
   // outline: 1px dashed black;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; background-color: var(--clr-retro-bg01); }
 
 html, button, input, select, textarea, h1, h2, h3, h4, h5, p, a {
   font-family: 
