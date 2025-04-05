@@ -8,7 +8,6 @@ import "normalize.css";
 import "./App.scss";
 
 const root = document.getElementById('root');
-const { Header } = lazily(() => import('@/components/header'));
 const { Home } = lazily(() => import('@/pages/home'));
 
 const App: Component = () => {
