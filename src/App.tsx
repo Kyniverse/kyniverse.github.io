@@ -9,11 +9,13 @@ import "./App.scss";
 
 const root = document.getElementById('root');
 const { Home } = lazily(() => import('@/pages/home'));
+const { Dev } = lazily(() => import('@/pages/dev'));
 
 const App: Component = () => {
   return (<>
     <Router>
       <Route path='/' component={Home} />
+      <Route path='/dev' component={Dev} />
     </Router>
   </>);
 }
