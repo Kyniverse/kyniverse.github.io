@@ -6,14 +6,20 @@ import { Component } from "solid-js";
 
 import "normalize.css";
 import "./App.scss";
+import "purecss/build/grids-min.css";
+import "purecss/build/grids-responsive-min.css";
 
 const root = document.getElementById('root');
 const { Home } = lazily(() => import('@/pages/home'));
+const { Dev } = lazily(() => import('@/pages/dev'));
+const { Presskit } = lazily(() => import('@/pages/presskit'));
 
 const App: Component = () => {
   return (<>
     <Router>
       <Route path='/' component={Home} />
+      <Route path='/dev' component={Dev} />
+      <Route path='/presskit' component={Presskit} />
     </Router>
   </>);
 }
