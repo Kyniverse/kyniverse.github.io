@@ -10,7 +10,7 @@ import imgColor from "@/public/Colours.png";
 
 export const Home: Component = () => {
   return(<Default class={"page home"}>
-    <Header />
+    <Header visible={true} />
     <div class="cover">
       <img src={imgColor} alt="Fancy colours" class="colors"/>
 

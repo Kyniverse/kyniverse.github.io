@@ -26,8 +26,8 @@ export const Header: Component<HeaderProps> = (props) => {
       <div class="wrapper">
         <h1 class="title">Goed Gestemd</h1>
         <nav class="navigation">
-          <A href="/" end={true} class="button">HOME</A>
-          <A href="/presskit" end={true} class="button">PRESSKIT</A>
+          <A href={"/"} end={true} class="button">HOME</A>
+          <A href={"/presskit"} end={true} class="button">PRESSKIT</A>
         </nav>
       </div>
     </header>
