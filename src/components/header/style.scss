@@ -1,18 +1,52 @@
 .header {
-    position: absolute;
-    
+    z-index: 99;
+
+    position: fixed;
+    top: -64px;
     height: 64px;
     width: 100%;
 
+    overflow: hidden;
+
+    transition: top 125ms;
     background: var(--clr-retro-bg02);
+
+    &.visible { top: 0px; }
 
     .wrapper {
         display: flex;
         align-items: center;
-        height: 100%;
+        justify-content: space-between;
+
+        padding-inline: 16px;
         margin: 0 auto;
+        height: 100%;
         max-width: var(--content-width);
 
         .title { color: var(--light0) }
+
+        .button { 
+            color: white;
+            padding: 8px 16px;
+
+            &::before {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                content: '';
+                width: 100%;
+                height: 100%;
+                border-bottom: 2px solid white;
+
+                transition: transform 125ms;
+                transform: scaleX(0);
+                transform-origin: center;
+            }
+
+            &:hover::before {
+                transform: scaleX(1);
+            }
+        }
     }
+
 }
