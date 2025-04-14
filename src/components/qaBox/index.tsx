@@ -6,7 +6,7 @@ interface QABoxProps {
   answer: string;
 }
 
-export const QABox: Component = (props: QABoxProps) => {
+export const QABox: Component<QABoxProps> = (props) => {
   let _answerRef;
 
   const clickHandler = (data, event) => {
