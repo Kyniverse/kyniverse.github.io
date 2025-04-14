@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 import { QABox } from "@/components/qaBox";
 
 import "./style.scss";
-import imgLogo from "@/public/GoedGestemdLogoX1024.png";
+import imgLogo from "@/public/presskit/LogoWhiteBgTransparent@1024.png";
 import imgColor from "@/public/Colours.png";
 import { SpaceR } from "@/components/spacr";
 
