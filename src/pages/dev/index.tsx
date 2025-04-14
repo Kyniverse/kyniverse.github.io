@@ -12,7 +12,7 @@ import { SpaceR } from "@/components/spacr";
 
 export const Dev: Component = () => {
   return(<Default class={"page dev"}>
-    <Header />
+    <Header visible={true} />
     <div class="cover">
       <img src={imgColor} alt="Fancy colours" class="colors"/>
 
