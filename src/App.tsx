@@ -20,6 +20,8 @@ const App: Component = () => {
       <Route path='/' component={Home} />
       <Route path='/dev' component={Dev} />
       <Route path='/presskit' component={Presskit} />
+      
+      <Route path='*404' component={Home} />
     </Router>
   </>);
 }
