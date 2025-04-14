@@ -54,3 +54,15 @@ ul, ol, li {
   text-decoration: none;
   list-style: none;
 }
+
+.wrap {
+  width: min(calc(100% - 32px), 768px);
+  margin: 0 auto;
+}
+
+.txt.left { text-align: left; }
+.txt.center { text-align: center; }
+.txt.right { text-align: right; }
+
+.txt.light { color: var(--clr-retro-bg01); }
+.txt.dark { color: var(--clr-retro-bg02); }
