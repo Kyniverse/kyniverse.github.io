@@ -22,8 +22,7 @@ export const Dev: Component = () => {
     </div>
 
     <div id="mission" class="wrap">
-      <h1 class="txt center dark">missie</h1>
-      <p>
+      <p class="txt center dark" style="font-weight: 500; font-size: 16pt;">
         Goed Gestemd is een nieuw initiatief in Helmond dat muziekliefhebbers samenbrengt, zowel om hun muzikale interesses te delen als om een ondersteunende gemeenschap te vormen. In een tijd waarin digitalisering ons vaak afleidt en lokale ontmoetingen lastig zijn, biedt Goed Gestemd een mogelijkheid voor netwerken en verbinding, ook voor diegenen die behoefte hebben aan een uitlaatklep zonder woorden.
       </p>
     </div>
@@ -33,7 +32,7 @@ export const Dev: Component = () => {
     <div id="event" class="wrap">
       <h1 class="txt center dark">Get-Together</h1>
       <p>
-        Op 9 Mei 2025 zal Goed Gestemd de eerste Get-Together organiseren waarbij mensen hun muzikale netwerk kunnen uitbreiden. Het zal gehouden worden in Wijkhuis De Lier in Helmond 
+      GoedGestemd organiseert op 9 mei 2025 de eerste Get-Together in Wijkhuis De Lier in Helmond. Dit is dé gelegenheid voor muziekliefhebbers om hun netwerk uit te breiden. De inloop is vanaf 19:00 uur, waarna het evenement om 19:30 uur start met een korte openingstoespraak. Muzikanten zijn welkom om hun instrumenten mee te nemen, maar houd er rekening mee dat je zelf voor de benodigde apparatuur zorgt, zoals batterij- of accuversterkers of bluetooth-speakers. We vragen iedereen om het geluidsniveau te respecteren, zodat alle gasten van de avond kunnen genieten.
       </p>
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d621.229270814075!2d5.683248282245107!3d51.47803626617841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c72396d051d36f%3A0x5cf17b0589fb9a5c!2sWijkhuis%20de%20Lier!5e0!3m2!1snl!2snl!4v1744629858749!5m2!1snl!2snl" 
@@ -56,7 +55,7 @@ export const Dev: Component = () => {
       />
       <QABox
         question="Mag ik een instrument meenemen?"
-        answer="Ja, je mag een instrument meenemen. Wel op eigen risico. We vragen je om de grootte te beperken. Elektrische instrumenten? Neem dan zelf je apparatuur mee zoals draagbare verstekers, wij kunnen geen aansluitingen verlenen. En let op het geluid, zodat je andere gasten niet stoort."
+        answer="Ja, je mag een instrument meenemen. Wel op eigen risico. We vragen je om de grootte te beperken. Elektrische instrumenten? Neem dan zelf je apparatuur mee zoals draagbare versterkers, wij kunnen geen aansluitingen verlenen. En let op het geluid, zodat je andere gasten niet stoort."
       />
       <QABox
         question="Is de toegang gratis?"
