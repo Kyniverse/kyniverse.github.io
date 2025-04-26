@@ -18,11 +18,21 @@ export const Home: Component = () => {
 
       <div class="logo">
         <img src={imgLogo} alt="Logo Goed Gestemd" class="image"/>
+        <h1>9 MEI</h1>
+        <h2>19:30 - 21:00</h2>
+        <h2>Wijkhuis De Lier</h2>
+        <h3>Van Kinsbergenstraat 1</h3>
+        <h3>5703BW Helmond</h3>
+        <div class="arrow"></div>
       </div>
     </div>
 
     <div id="mission" class="wrap">
       <p class="txt center dark" style="font-weight: 500; font-size: 16pt;">
+      Goed Gestemd is een samenwerkingsverband tussen muzikant Kenneth van den Berg en de LEV-groep Helmond. Het doel is om lokale muzikanten een platform te bieden waarbij zij kennis kunnen maken met elkaar in een kleine, veilige en spontane setting. 
+      </p>
+
+      <p class="txt center dark" style="font-weight: 500; font-size: 16pt; display: none;">
         Goed Gestemd is een nieuw initiatief in Helmond dat muziekliefhebbers samenbrengt, zowel om hun muzikale interesses te delen als om een ondersteunende gemeenschap te vormen. In een tijd waarin digitalisering ons vaak afleidt en lokale ontmoetingen lastig zijn, biedt Goed Gestemd een mogelijkheid voor netwerken en verbinding, ook voor diegenen die behoefte hebben aan een uitlaatklep zonder woorden.
       </p>
     </div>
