@@ -1,10 +1,10 @@
 .QABox {
   margin-bottom: 32px;
-  user-select: none;
+  // user-select: none;
 
   .question { 
     padding: 8px;
-    cursor: pointer;
+    // cursor: pointer;
 
     &::before { 
       position: absolute;

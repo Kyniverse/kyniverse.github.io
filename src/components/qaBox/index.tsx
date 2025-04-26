@@ -10,7 +10,7 @@ export const QABox: Component<QABoxProps> = (props) => {
   let _answerRef;
 
   const clickHandler = (data, event) => {
-    _answerRef.classList.toggle("hidden");
+    // _answerRef.classList.toggle("hidden");
   }
 
   return (
