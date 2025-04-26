@@ -1,0 +1,1 @@
+.QABox{margin-bottom:32px}.QABox .question{padding:8px}.QABox .question:before{position:absolute;content:"";left:0;top:0;width:100%;height:100%;opacity:.2;border-radius:4px;background:var(--clr-retro-bg02)}.QABox .answer{margin:16px;overflow:hidden;max-height:128px;transition:max-height .25s}.QABox .answer.hidden{max-height:0px}
