@@ -1,0 +1,102 @@
+.main\:lander {
+    height: 100vh;
+    overflow: hidden;
+
+    .top { 
+        display: flex;
+        width: var(--content-width);
+        align-items: end;
+        margin: 0 auto;
+
+        height: 50%; 
+
+        .inner {
+            display: flex;
+            align-items: center;
+            height: 256px;
+            width: 100%;
+
+            .logo {
+                height: 384px;
+                margin-left: auto;
+                margin-right: -24px;
+                aspect-ratio: 1;
+            }
+
+            .background {
+                position: absolute;
+                transform: scale(1.25) translateX(-2.5%);
+            }
+        }
+    }
+
+    .bottom { 
+        width: var(--content-width);
+        margin: 0 auto;
+        height: 50%;
+
+        h2 { font-size: 64px; width: 66%; }
+        p { font-size: 20px; width: 66%; }
+
+        button {
+            margin-top: 16px;
+            width: 144px;
+            height: 48px;
+
+            border: none;
+            border-radius: 8px;
+
+            font-weight: bold;
+            font-size: 20px;
+            color: var(--clr-light-1);
+            
+            background: var(--clr-6);
+
+            transition: background 125ms;
+            cursor: pointer;
+
+            &:hover { background: var(--clr-7); }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main\:lander {
+        .top .inner {
+            align-items: flex-end;
+            height: 100%;
+            
+            .background {
+                transform: scaleX(1.1);
+                top: 0;
+                height: 50vh;
+                position: absolute;
+            }
+        }
+
+        .bottom {
+            h2 { font-size: 56px; }
+            p { width: 100%; }
+        }
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .main\:lander {
+        .top .inner .logo { 
+            width: 100%;
+            max-width: 384px;
+            margin: 0 auto; 
+
+            img { 
+                width: 100%; 
+                height: auto; 
+            }
+        }
+
+        .bottom { 
+            h2 { font-size: 48px;}
+            p { width: 100%; }
+        }
+    }
+}

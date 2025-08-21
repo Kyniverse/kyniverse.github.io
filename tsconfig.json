@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "types": ["vinxi/types/client"],
+    "isolatedModules": true,
+
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/public/*": ["./src/public/*"],
+      "@/stores/*": ["./src/stores/*"],
+      "@/components/*": ["./src/components/*", "./src/components/*/index.tsx"],
+      "@/templates/*": ["./src/templates/*", "./src/templates/*/index.tsx"],
+    }
+  }
+}
