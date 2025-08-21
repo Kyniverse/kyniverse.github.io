@@ -2,7 +2,9 @@ import { defineConfig } from "@solidjs/start/config";
 import { fileURLToPath, URL } from "url";
 
 export default defineConfig({
-  server: {
+  ssr: false,
+
+  server: { 
     prerender: {
       crawlLinks: true
     }
