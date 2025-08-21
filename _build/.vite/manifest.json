@@ -17,9 +17,9 @@
     "file": "assets/layouts-CQ2_IkQb.js",
     "name": "layouts"
   },
-  "_style-R46sX3BA.css": {
-    "file": "assets/style-R46sX3BA.css",
-    "src": "_style-R46sX3BA.css"
+  "_style-WN0HEVSH.css": {
+    "file": "assets/style-WN0HEVSH.css",
+    "src": "_style-WN0HEVSH.css"
   },
   "src/routes/about/index.tsx?pick=default&pick=$css": {
     "file": "assets/index-Dm1Y-0W0.js",
@@ -31,7 +31,7 @@
     ]
   },
   "src/routes/event/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-C51Wgq6R.js",
+    "file": "assets/index-BYVZBt_e.js",
     "name": "index",
     "src": "src/routes/event/index.tsx?pick=default&pick=$css",
     "isEntry": true,
@@ -40,7 +40,7 @@
       "_index-BW_sl6Ko.js"
     ],
     "css": [
-      "assets/style-R46sX3BA.css"
+      "assets/style-WN0HEVSH.css"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
@@ -57,7 +57,7 @@
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CQw6hsAb.js",
+    "file": "assets/client-Cqoscrm_.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
@@ -67,7 +67,7 @@
     ],
     "css": [
       "assets/client-Bf9gwhyl.css",
-      "assets/style-R46sX3BA.css"
+      "assets/style-WN0HEVSH.css"
     ]
   }
 }
