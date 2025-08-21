@@ -72,7 +72,19 @@
             transform: translate(33%);
         }
 
-        .button { width: 256px; margin: 0 auto; background-color: var(--clr-2); color: var(--clr-dark-1); font-weight: bold; }
+        .button { 
+            width: 256px; 
+            margin: 0 auto; 
+            background-color: var(--clr-2); 
+            color: var(--clr-dark-1); 
+            font-weight: bold; 
+
+            transition: background-color 125ms;
+
+            &:hover {
+                background-color: var(--clr-3);
+            }
+        }
     }
 
     .faq {
@@ -109,6 +121,29 @@
         color: var(--clr-light-1);
         font-weight: bold;
         background-color: rgb(114, 88, 246, 0.25);
+    }
+
+    .end {
+        flex-direction: column;
+
+        a { 
+            width: fit-content;
+            height: 100%;
+            margin: 0 auto;
+
+            .button {
+                cursor: pointer;
+                width: 100%;
+
+                transition: background-color 125ms, color 125ms;
+                
+
+                &:hover { 
+                    background-color: var(--clr-7);
+                    color: white;
+                }
+            }
+        }
     }
 }
 

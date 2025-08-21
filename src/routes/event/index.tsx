@@ -27,8 +27,8 @@ export default function PageEvent() {
             </Container>
 
             <Container class="info">
-                <SpacR height="256px" />
-                <p class="txt size20 light left" id="info">
+                <SpacR height="128px" />
+                <p class="txt size20 light left" id="info" style="padding-top: 64px">
                     Vrijdag 29 Augustus om 19:30 is het weer zo ver! De 2de editie van Goed Gestemd's Jam-Together! Het perfecte
                     excuus om te netwerken met andere muzikanten, samen te jammen en gelijkgestemden te ontmoeten.
                     <br/>
@@ -94,6 +94,17 @@ export default function PageEvent() {
                         muzikale achtergrond of interesses. Het doel is om mensen te verbinden.
                     </p>
                 </div>
+            </Container>
+
+            <Container class="end">
+                <SpacR height="32px" />
+                <h3 class="txt light center">Vragen?</h3>
+                <SpacR height="16px" />
+                <p class="txt light center">Stuur een email naar </p>
+                <SpacR height="16px" />
+                <a href="mailto:goedgestemdhelmond@gmail.com" class="center">
+                    <button class="button blue">goedgestemdhelmond@gmail.com</button>
+                </a>
             </Container>
 
             <SpacR height="64px" />
