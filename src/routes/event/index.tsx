@@ -26,11 +26,13 @@ export default function PageEvent() {
                 </div>
             </Container>
 
+            <SpacR height="128px" />
+
             <Container class="info">
-                <SpacR height="128px" />
-                <p class="txt size20 light left" id="info" style="padding-top: 64px">
-                    Vrijdag 29 Augustus om 19:30 is het weer zo ver! De 2de editie van Goed Gestemd's Jam-Together! Het perfecte
-                    excuus om te netwerken met andere muzikanten, samen te jammen en gelijkgestemden te ontmoeten.
+                <p class="txt size24 light left" id="info" style="padding-top: 64px">
+                    Vrijdag 17 Oktober is het tijd voor de 3de Netwerkborrel van Goed Gestemd!
+                    Het perfecte excuus om te netwerken met andere muzikanten en gelijkgestemden 
+                    te ontmoeten.
                     <br/>
                     <br/>
                     Het zal dit keer weer plaatsvinden in Wijkhuis De Lier vanaf 19:30 en iedereen is 
@@ -45,22 +47,37 @@ export default function PageEvent() {
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
-                <SpacR height="32px" />
             </Container>
+
+            <Container class="purpose">
+                <p class="txt size20 light left" id="purpose" style="padding-top: 64px">
+                    Tegenwoordig zijn we online overal tegelijk, maar voelen we ons vaak alleen.
+                    Goed Gestemd wil hier een verandering in brengen.
+
+                    Ons doel? We brengen mensen weer fysiek samen met behulp van muziek. Door 
+                    samen we genieten creëren we een gezellige plek waar je nieuwe mensen kunt 
+                    ontmoeten en echt contact kunt maken, zonder afhankelijk te zijn van een scherm.
+                </p>
+            </Container>
+
+            <SpacR height="128px" />
 
             <Container class="faq">
                 <div class="qabox">
                     <h2>Is er een aanmeldingsprocedure?</h2>
-                    <p>Nee, je mag tijdens de volledig durende Jam-Together ten alle tijden binnen lopen!</p>
+                    <p>Nee, je mag tijdens de volledig durende Get-Together ten alle tijden binnen lopen!</p>
                 </div>
 
                 <div class="qabox">
                     <h2>Mag ik een instrument meenemen?</h2>
                     <p>
-                        Ja, je mag een instrument meenemen al is dit wel op eigen risico. Ook vragen
-                        we je de grootte te beperken. Heb je een elektrisch instrument zoals een bas/gitaar?
-                        Dan zal je zelf je apparatuur mee moeten nemen in de vorm van draagbare versterkers 
-                        op batterijen. Wij verlenen geen aansluitingen. Houdt ook rekening met mede gasten.
+                        Ja zeker! Houdt er wel rekening mee dat dit op eigen risico is. Ook willen we 
+                        je graag vragen om de grootte te beperken. Heb je een elektrisch instrument
+                        zoals een gitaar, synthesizer or iets anders? Dan willen we je graag verzoeken
+                        zelf een draagbare versterker op batterijen mee te nemen.
+
+                        Er zullen verschillende instrumenten en versterkers beschikbaar zijn die
+                        onder toezicht van beheer gebruikt mogen worden.
                     </p>
                 </div>
 
@@ -81,8 +98,8 @@ export default function PageEvent() {
                 <div class="qabox">
                     <h2>Ik bespeel geen instrument en/of productie, ben ik toch welkom?</h2>
                     <p>
-                        Ja, absoluut! De Jam-Together is voor alle muziekliefhebbers en is eigenlijk 
-                        gewoon een netwerkborrel. Of je nou zelf muziek maakt of alleen luistert, 
+                        Ja, absoluut! De Get-Together is voor alle muziekliefhebbers en is simpel 
+                        gezegd netwerkborrel. Of je nou zelf muziek maakt of alleen luistert, 
                         iedereen is welkom om te socialiseren.
                     </p>
                 </div>
@@ -90,7 +107,7 @@ export default function PageEvent() {
                 <div class="qabox">
                     <h2>Ik houd meer van genre XYZ, is dit evenement wel voor mij?</h2>
                     <p>
-                        Ja, de Jam-Together is voor iedereen met een liefde voor muziek, ongeacht je
+                        Ja, de Get-Together is voor iedereen met een liefde voor muziek, ongeacht je
                         muzikale achtergrond of interesses. Het doel is om mensen te verbinden.
                     </p>
                 </div>
