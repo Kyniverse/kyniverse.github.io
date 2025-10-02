@@ -99,8 +99,8 @@ export default function PageEvent() {
                     <h2>Ik bespeel geen instrument en/of productie, ben ik toch welkom?</h2>
                     <p>
                         Ja, absoluut! De Get-Together is voor alle muziekliefhebbers en is simpel 
-                        gezegd netwerkborrel. Of je nou zelf muziek maakt of alleen luistert, 
-                        iedereen is welkom om te socialiseren.
+                        gezegd een netwerkborrel. Of je nou zelf muziek maakt of alleen luistert, 
+                        iedereen is welkom om te genieten.
                     </p>
                 </div>
 
