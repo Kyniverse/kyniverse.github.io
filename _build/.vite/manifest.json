@@ -1,6 +1,10 @@
 {
-  "_index-BW_sl6Ko.js": {
-    "file": "assets/index-BW_sl6Ko.js",
+  "_index-Drc_QrFr.css": {
+    "file": "assets/index-Drc_QrFr.css",
+    "src": "_index-Drc_QrFr.css"
+  },
+  "_index-PBAAgMyC.js": {
+    "file": "assets/index-PBAAgMyC.js",
     "name": "index",
     "imports": [
       "_layouts-CQ2_IkQb.js"
@@ -9,9 +13,12 @@
       "assets/index-Drc_QrFr.css"
     ]
   },
-  "_index-Drc_QrFr.css": {
-    "file": "assets/index-Drc_QrFr.css",
-    "src": "_index-Drc_QrFr.css"
+  "_index-wPveBuUu.js": {
+    "file": "assets/index-wPveBuUu.js",
+    "name": "index",
+    "imports": [
+      "_layouts-CQ2_IkQb.js"
+    ]
   },
   "_layouts-CQ2_IkQb.js": {
     "file": "assets/layouts-CQ2_IkQb.js",
@@ -31,42 +38,65 @@
     ]
   },
   "src/routes/event/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-BYVZBt_e.js",
+    "file": "assets/index-3zgLSHba.js",
     "name": "index",
     "src": "src/routes/event/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "imports": [
       "_layouts-CQ2_IkQb.js",
-      "_index-BW_sl6Ko.js"
+      "_index-wPveBuUu.js",
+      "_index-PBAAgMyC.js"
     ],
     "css": [
       "assets/style-WN0HEVSH.css"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-2eslmkRy.js",
+    "file": "assets/index-CRWDPcr2.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "imports": [
       "_layouts-CQ2_IkQb.js",
-      "_index-BW_sl6Ko.js"
+      "_index-wPveBuUu.js",
+      "_index-PBAAgMyC.js"
     ],
     "css": [
       "assets/index-CDh9dCut.css"
     ]
   },
+  "src/routes/lessons/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-1r3jwUML.js",
+    "name": "index",
+    "src": "src/routes/lessons/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_layouts-CQ2_IkQb.js",
+      "_index-PBAAgMyC.js"
+    ]
+  },
+  "src/routes/studio/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-BBitrC5z.js",
+    "name": "index",
+    "src": "src/routes/studio/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "imports": [
+      "_layouts-CQ2_IkQb.js",
+      "_index-PBAAgMyC.js"
+    ]
+  },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-Cqoscrm_.js",
+    "file": "assets/client-DNa3_yfl.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
       "_layouts-CQ2_IkQb.js",
-      "_index-BW_sl6Ko.js"
+      "_index-PBAAgMyC.js",
+      "_index-wPveBuUu.js"
     ],
     "css": [
-      "assets/client-Bf9gwhyl.css",
+      "assets/client-BPD86-e9.css",
       "assets/style-WN0HEVSH.css"
     ]
   }

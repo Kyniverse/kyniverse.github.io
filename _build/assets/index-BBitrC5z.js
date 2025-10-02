@@ -1,0 +1,1 @@
+import{c as e,t as r,L as a}from"./layouts-CQ2_IkQb.js";import{C as t}from"./index-PBAAgMyC.js";var o=r("<h1>Muzieklessen");function i(){return e(a,{class:"studio",get children(){return[e(t,{class:"cover",get children(){return o()}}),e(t,{class:"info"})]}})}export{i as default};
