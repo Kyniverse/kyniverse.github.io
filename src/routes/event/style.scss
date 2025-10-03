@@ -73,16 +73,16 @@
         }
 
         .button { 
-            width: 256px; 
-            margin: 0 auto; 
-            background-color: var(--clr-2); 
-            color: var(--clr-dark-1); 
-            font-weight: bold; 
+            width: 256px;
+            margin: 0 auto;
+            background-color: var(--clr-2);
+            color: var(--clr-dark-1);
+            font-weight: bold;
 
-            transition: background-color 125ms;
+            transition: background-color 175ms;
 
             &:hover {
-                background-color: var(--clr-3);
+                background-color: #c54f50;
             }
         }
     }
