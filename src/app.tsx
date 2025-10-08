@@ -41,9 +41,8 @@ import PageEvent from "./routes/event";
 
 export default function App() {
   return (
-    <PageEvent />
-    // <Router root={(props) => <Suspense>{props.children}</Suspense>}>
-    //   <FileRoutes />
-    // </Router>
+    <Router root={(props) => <Suspense>{props.children}</Suspense>}>
+      <FileRoutes />
+    </Router>
   );
 }
