@@ -3,6 +3,7 @@ import "./style.scss";
 import { Image } from "@/components/image";
 import { Container } from "@/components/container";
 import { SpacR } from "@/components/spacr";
+import { Button } from "@/components/button";
 
 export default function PageEvent() {
     return (
@@ -20,9 +21,7 @@ export default function PageEvent() {
                     <Image class="blob2" src="/assets/images/event/blob2.png" atl="blob2" />
                     <Image class="title" src="/assets/images/event/text.png" atl="text" />
                     <SpacR height="96px"/>
-                    <a class="button txt center bold" href="#info">
-                        LEES MEER
-                    </a>
+                    <Button class="orange hover:red txt:hover:light" href="#info" text="LEES MEER"/>
                 </div>
             </Container>
 

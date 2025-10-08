@@ -86,20 +86,33 @@ ul, ol, li {
 .txt.bold { font-weight: bold; }
 .txt.shadow { text-shadow: black 1px 0 8px; }
 
+.txt\:left { text-align: left; }
+.txt\:center { text-align: center; }
+.txt\:right { text-align: right; }
 
-/* ------------------------ Buttons ------------------------ */
-.button {
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-weight: bold;
+.txt {
+  &\:light { color: var(--clr-light-1); }
+  &\:dark { color: var(--clr-dark-1); }
+  &\:red { color: var(--clr-1); }
+  &\:orange { color: var(--clr-2); }
+  &\:yellow { color: var(--clr-3); }
+  &\:green { color: var(--clr-4); }
+  &\:cyan { color: var(--clr-5); }
+  &\:blue { color: var(--clr-6); }
+  &\:purple { color: var(--clr-7); }
+  &\:pink { color: var(--clr-8); }
+
+  &\:hover {
+    &\:light:hover { color: var(--clr-light-1); }
+    &\:dark:hover { color: var(--clr-light-1); }
+    &\:red:hover { color: var(--clr-1); }
+    &\:orange:hover { color: var(--clr-2); }
+    &\:yellow:hover { color: var(--clr-3); }
+    &\:green:hover { color: var(--clr-4); }
+    &\:cyan:hover { color: var(--clr-5); }
+    &\:blue:hover { color: var(--clr-6); }
+    &\:purple:hover { color: var(--clr-7); }
+    &\:pink:hover { color: var(--clr-8); }
+
+  }
 }
-
-.button.red { background-color: var(--clr-1); }
-.button.orange { background-color: var(--clr-2); }
-.button.yellow { background-color: var(--clr-3); }
-.button.green { background-color: var(--clr-4); }
-.button.cyan { background-color: var(--clr-5); }
-.button.blue { background-color: var(--clr-6); }
-.button.purple { background-color: var(--clr-7); }
-.button.pink { background-color: var(--clr-8); }

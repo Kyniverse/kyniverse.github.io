@@ -18,7 +18,7 @@ export const Lander: Component = (props) => {
             </div>
 
             <div class="bottom">
-                <h2 class="txt dark">MUZIKALE ONTWIKKELING</h2>
+                <h2 class="txt dark">DOE MEER MET MUZIEK</h2>
                 <p>Een initiatief om mensen met een liefde voor de muziek te verbinden voor ontwikkeling en een sociale toekomst.</p>
                 <button>LEES MEER</button>
             </div>
