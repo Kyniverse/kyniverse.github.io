@@ -11,8 +11,10 @@
 }
 
 .button {
+    display: block;
     cursor: pointer;
 
+    width: max-content;
     padding: 16px;
     border: unset;
     border-radius: 64px;
@@ -20,7 +22,7 @@
     font-size: 20px;
     text-align: center;
 
-    background: linear-gradient(to bottom right, var(--clr-start), var(--clr-end));
+    background: linear-gradient(120deg, var(--clr-start), var(--clr-end));
     transition: --clr-start 125ms ease-in-out, --clr-end 125ms ease-in-out, color 125ms;
 
     &.red { --clr-start: var(--clr-1); --clr-end: var(--clr-1); }

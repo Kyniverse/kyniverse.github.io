@@ -8,13 +8,13 @@ import { Button } from "@/components/button";
 export default function Index() {
   return (
     <LayoutDefault class="home">
-      {/* <Lander /> */}
+      <Lander />
 
       <Container>
         <SpacR height="256px" />
-        <Button text="LEES MEER" class="hover:gradient:b2pu txt:dark txt:hover:dark"/>
-        <Button text="LEES MEER" class="blue hover:red txt:dark txt:hover:dark"/>
-        <Button text="LEES MEER" class="test txt:dark txt:hover:dark"/>
+        <Button class="hover:gradient:b2pu txt:dark txt:hover:dark">LEES MEER</Button>
+        <Button class="blue hover:red txt:dark txt:hover:dark">LEES MEER</Button>
+        <Button class="test txt:dark txt:hover:dark">LEES MEER</Button>
       </Container>
 
     </LayoutDefault>
