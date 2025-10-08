@@ -1,0 +1,1 @@
+import{t as r,i as t,a as n,b as s}from"./layouts-kSrTJgcE.js";var c=r("<section>");const l=a=>(()=>{var e=c();return t(e,()=>a.children),n(()=>s(e,`container pure-g ${a.class}`)),e})();export{l as C};

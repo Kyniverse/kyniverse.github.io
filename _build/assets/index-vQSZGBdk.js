@@ -1,0 +1,1 @@
+import{t as m,a as c,b as d,s as l}from"./layouts-kSrTJgcE.js";var n=m("<div><img width=100% height=100%>");const f=a=>(()=>{var e=n(),r=e.firstChild;return c(t=>{var i=`main:image ${a.class}`,s=a.src,v=a.atl;return i!==t.e&&d(e,t.e=i),s!==t.t&&l(r,"src",t.t=s),v!==t.a&&l(r,"alt",t.a=v),t},{e:void 0,t:void 0,a:void 0}),e})();export{f as I};
